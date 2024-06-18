@@ -1,0 +1,14 @@
+You have been given two arrays arr and brr.
+Your task is to create a new array c such that c[i] = d * arr[i] + brr[i]
+for some real number d and for every i in the range 0 ≤ i < n
+You need to determine the maximum number of zeros that can be obtained in the array c and the corresponding value of 
+d. If there are multiple values of d that result in the maximum number of zeros, print any of them.
+
+Input:
+The first line contains one integer n (1 ≤ n ≤ 200000) — the number of elements in both arrays.
+The second line contains n integers, the elements of array a  (−10^9 ≤ a[i]  ≤ 10^9).
+The third line contains n integers, the elements of array b  (−10^9 ≤ b[i]  ≤ 10^9).
+
+Output:
+A single integer representing the maximum number of zeros that can be obtained in the array
+c and the corresponding value of d. If there are multiple solutions, print any.
